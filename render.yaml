@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: paw-pillar-heroes
+    runtime: static
+    buildCommand: 'true'
+    staticPublishPath: .
+    autoDeploy: false
